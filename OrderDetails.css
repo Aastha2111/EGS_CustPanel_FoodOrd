@@ -1,0 +1,36 @@
+
+/* MenuPAge */
+.itemcard {
+    box-shadow: 1px 5px 10px rgba(249, 248, 248, 0.35, 0.5);
+    filter: drop-shadow(5px 5px 5px rgba(151, 148, 148, 0.3)) !important;
+    border-radius: 45px;
+    
+    
+}
+
+.title {
+    font-size: 2vh;
+    font-weight: bolder;
+    margin-bottom: 0%;
+}
+
+.subtitle {
+    color: rgb(150, 144, 144);
+    font-size: 2vh;
+    font-weight: 500;
+    margin-bottom: 0%;
+}
+
+.itemData {
+    padding-left: 16px !important;
+}
+
+.AddTag {
+    background-color: #F8600A;
+    border: #F8600A;
+    width: 30% !important;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 25px;
+}

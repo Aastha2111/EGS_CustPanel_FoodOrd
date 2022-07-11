@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+    <script> 
+        $(function(){
+          $("#navbar").load("navbar_c.html"); 
+          $("#footer").load("footer.html"); 
+           $("#newnav").load("b-Navbar.html"); 
+
+        });
+        </script> 
+
+
+  </head>
+  <body>
+    <div id="navbar"></div>
+    <!-- <div id="newnav" class="" style=""></div> -->
+
+
+    <!-- Contact page -->
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="images/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Contact Info</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <a href="https://goo.gl/maps/gFWtFeG6UGJmtFfj7"><p><img src="images/location.png" class="icon" alt="" />
+              BHU Varanasi, India, 221005</p></a>
+            </div>
+            <div class="information">
+                <a href="mailto:missionmansha@gmail.com"><p><img src="images/email.png" class="icon" alt="" />
+                missionmansha@gmail.com</p></a>
+            </div>
+            <div class="information">
+                <a href="tel:+91 8881428677"><p><img src="images/phone.png" class="icon" alt="" />
+              +91 8881428677</p></a>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+            <a href="https://wa.me/message/NKB7V5RNWYXBG1">
+                <i class="fab fa-whatsapp"></i>
+                </a>
+            <a href="https://openinapp.co/instagram/missionmansha">
+                <i class="fab fa-instagram"></i>
+                </a>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://openinapp.co/twitter/missionmansha">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://openinapp.co/linkedin/edf57">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://missionmanshafoundation.openinapp.co/mission-mansha-foundation">
+                <i class="fa fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="feedback.php" autocomplete="off" method="post">
+            <h3 class="title">Contact US</h3>
+            <div class="input-container">
+              <input type="text" name="name" placeholder="Name" class="input" />
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" placeholder="Phone" class="input" />
+            </div>
+            <div class="input-container">
+              <input type="text" name="city" placeholder="City" class="input" />
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" placeholder="Message"></textarea>
+            </div>
+            <input type="submit" value="Send Feedback" class="btn" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer" style=""></div>
+  </body>
+</html>
